@@ -2,7 +2,7 @@
 
 [![Java](https://img.shields.io/badge/Java-11%2B-blue?logo=java)](https://www.oracle.com/java/)
 
-A simple Java project demonstrating basic pattern printing programs. These examples showcase how to use loops and control structures in Java to generate geometric patterns like triangles and hollow squares using asterisks (`*`).
+A simple Java project demonstrating basic pattern printing programs. These examples showcase how to use loops and control structures in Java to generate geometric patterns like triangles, diamonds, and hollow squares using asterisks (`*`).
 
 ## Table of Contents
 - [Overview](#overview)
@@ -20,7 +20,7 @@ This repository contains beginner-friendly Java programs for printing common pat
 - Conditional statements (`if-else`)
 - String manipulation for output formatting
 
-The patterns include solid and hollow shapes, helping to build intuition for algorithmic thinking.
+The patterns include solid and hollow shapes, as well as symmetric designs like diamonds, helping to build intuition for algorithmic thinking.
 
 ## Features
 - **Simple and Readable Code**: Each program is concise and well-commented.
@@ -52,6 +52,7 @@ Run any program from the command line:
 java Triangle
 java InvertedTriangle
 java SquareHollowPattern
+java Diamond
 ```
 Each program will prompt for input (e.g., pattern size) or use a default value.
 
@@ -61,6 +62,7 @@ Each program will prompt for input (e.g., pattern size) or use a default value.
 | `Triangle.java`           | Prints a right-angled solid triangle pattern. |
 | `InvertedTriangle.java`   | Prints an inverted right-angled solid triangle pattern. |
 | `SquareHollowPattern.java`| Prints a hollow square pattern with borders. |
+| `Diamond.java`            | Prints a symmetric diamond pattern. |
 
 ## Examples
 
@@ -91,9 +93,20 @@ Each program will prompt for input (e.g., pattern size) or use a default value.
 *****
 ```
 
+### Diamond Pattern (Size: 5)
+```
+    *
+   ***
+  *****
+ *******
+  *****
+   ***
+    *
+```
+
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request for:
-- New pattern implementations (e.g., diamond, pyramid).
+- New pattern implementations (e.g., pyramid, star cross).
 - Bug fixes or optimizations.
 - Documentation improvements.
 
